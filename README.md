@@ -133,17 +133,19 @@ $$b^{[l]} \leftarrow b^{[l]} - \alpha \cdot \nabla_{b^{[l]}} L$$
 <h2 align="center">📊 Experimental Results & Agent Performance</h2>
 
 <p align="center">
-  <img width="400" height="425" alt="pendulum_top" src="https://github.com/user-attachments/assets/3adf1322-62ea-42dd-aa71-e366d69514d8" />
+  <img width="420" height="270" alt="learning curve" src="https://github.com/user-attachments/assets/5253d23e-f8b5-4156-9b78-120e29a5dd8c" />
   <br>
-  <em>Figure 1: Trained Soft Actor-Critic (SAC) agent successfully counteracting gravity to hold the pendulum steady at the top vertical position.</em>
+  <em>Figure 1: The learning curve while training.</em>
 </p>
 
 <br>
 
 <p align="center">
-  <img width="750" height="427" alt="learning curve" src="https://github.com/user-attachments/assets/5253d23e-f8b5-4156-9b78-120e29a5dd8c" />
+  <img width="400" height="330" alt="after 500 episodes" src="https://github.com/user-attachments/assets/c8ae6f93-dcb1-4adf-b921-266e14a1e08c" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img width="350" height="330" alt="pendulum_top" src="https://github.com/user-attachments/assets/3adf1322-62ea-42dd-aa71-e366d69514d8" />
   <br>
-  <em>Figure 2: The learning curve while training.</em>
+  <em>Figure 2: Final moving average convergence (left) and the trained SAC agent holding the pendulum steady at the top position (right).</em>
 </p>
 
 ---
