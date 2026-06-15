@@ -146,5 +146,13 @@ $$b^{[l]} \leftarrow b^{[l]} - \alpha \cdot \nabla_{b^{[l]}} L$$
   <em>Figure 2: The learning curve while training.</em>
 </p>
 
+---
 
+## 💻 Source Code Location
+
+The complete, self-contained Python implementation—including network initializations, explicit matrix calculus backpropagation loops, and live rendering logic—is available in the primary repository file:
+
+🔗 **[`PS-up With SAC Method.ipynb`](PS-up%20With%20SAC%20Method.ipynb)**
+
+*Note: You can run this Jupyter Notebook directly within an Anaconda environment or using Google Colab to train the agent and view the physical pendulum interface window.*
 
